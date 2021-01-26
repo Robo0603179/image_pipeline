@@ -37,6 +37,9 @@
 #include <sensor_msgs/image_encodings.h>
 #include <cmath>
 #include <limits>
+#include "opencv2/cudastereo.hpp"
+#include "opencv2/highgui.hpp"
+#include "opencv2/imgproc.hpp"
 
 namespace stereo_image_proc {
 

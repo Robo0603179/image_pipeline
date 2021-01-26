@@ -39,6 +39,10 @@
 #include <stereo_msgs/DisparityImage.h>
 #include <sensor_msgs/PointCloud.h>
 #include <sensor_msgs/PointCloud2.h>
+#include <opencv2/core/utility.hpp>
+#include "opencv2/cudastereo.hpp"
+#include "opencv2/highgui.hpp"
+#include "opencv2/imgproc.hpp"
 
 namespace stereo_image_proc {
 
